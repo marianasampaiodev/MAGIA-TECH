@@ -49,6 +49,26 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger-line {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+}
+
 
 .logo {
   color: #39ff14;
@@ -177,9 +197,22 @@ header {
   z-index: 1100;
 }
 
-.side-menu.open {
+.side-menu.active {
   right: 0;
 }
+.side-nav-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  stroke-width: 1.5;
+}
+
+.side-nav a span {
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+
 
 .menu-header {
   display: flex;
