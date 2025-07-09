@@ -296,13 +296,42 @@ header {
 }
 
 
-.buy-btn.sold-out {
-  background-color: #888; /* cor cinza */
-  color: #7f00ff;
-  cursor: not-allowed;
-  opacity: 0.7;
-  border: none;
+
+.esgotado {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  color: #b00020;
+  border: 2px solid #b00020;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #ffeaea;
 }
+.produtos-em-breve {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border: 3px solid #1c945f; /* Borda completa */
+  border-radius: 15px;
+}
+
+.produtos-em-breve p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+   font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+
 
 /* RESPONSIVO: CELULARES */
 @media (max-width: 768px) {
